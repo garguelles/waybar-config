@@ -16,6 +16,7 @@
     "sway/window"
   ],
   "modules-right": [
+    "tray",
     "mpd",
     "idle_inhibitor",
     "pulseaudio",
@@ -31,7 +32,6 @@
     "battery",
     "battery#bat2",
     "clock",
-    "tray"
   ],
   // Modules configuration
   // "sway/workspaces": {
