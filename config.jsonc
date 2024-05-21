@@ -22,11 +22,11 @@
     "network",
     "power-profiles-daemon",
     "cpu",
-    // "memory",
+    "memory",
     // "temperature",
-    "backlight",
+    //"backlight",
     "keyboard-state",
-    "wireplumber",
+    // "wireplumber",
     // "sway/language",
     "battery",
     "battery#bat2",
@@ -214,12 +214,12 @@
       "default": "🎜"
     },
     "escape": true,
-    "exec": "$HOME/.config/waybar/mediaplayer.py 2> /dev/null" // Script in resources folder
-    // "exec": "$HOME/.config/waybar/mediaplayer.py --player spotify 2> /dev/null" // Filter player based on name
+    // "exec": "$HOME/.config/waybar/mediaplayer.py 2> /dev/null" // Script in resources folder
+    "exec": "$HOME/.config/waybar/mediaplayer.py --player spotify 2> /dev/null" // Filter player based on name
   },
-  "wireplumber": {
-    "format": "{volume}%  ",
-    "format-muted": "",
-    "on-click": "pavucontrol"
-  },
+  // "wireplumber": {
+  //   "format": "{volume}%  ",
+  //   "format-muted": "",
+  //   "on-click": "pavucontrol"
+  // },
 }
