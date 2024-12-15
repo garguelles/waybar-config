@@ -4,7 +4,7 @@
 }
 
 window#waybar {
-  background-color: #1f1e2e;
+  background-color: rgba(31, 30, 46, 0.99);
   /* border-bottom: 3px solid rgba(100, 114, 125, 0.5); */
   color: #F6F4EB;
   transition-property: background-color;
@@ -68,6 +68,7 @@ button:hover {
 #workspaces button {
   padding: 0 20px;
   border-radius: 0;
+  color: #fff;
 }
 
 
