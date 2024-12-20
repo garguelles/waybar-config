@@ -21,7 +21,7 @@
     "clock"
   ],
   "modules-right": [
-    // "tray",
+    "tray",
     "mpd",
     "idle_inhibitor",
     "pulseaudio",
